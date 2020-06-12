@@ -16,7 +16,7 @@ class HomePage extends React.Component {
     componentDidMount() {
         this.setState({ isLoading: true });
 
-        fetch("https://deezerdevs-deezer.p.rapidapi.com/search?q=maroon5", {
+        fetch("https://deezerdevs-deezer.p.rapidapi.com/search?q=eminem", {
             "method": "GET",
             "headers": {
                 "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com",
